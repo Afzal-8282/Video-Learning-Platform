@@ -1,0 +1,37 @@
+.container {
+    height: 100vh;
+    padding: 5rem;
+    box-sizing: border-box;
+    
+}
+
+.graphics{
+    filter: drop-shadow(0 40px 10px rgba(0,0,0,0.3));
+    animation: vectorAnimation 1s infinite ease-in-out alternate;
+}
+
+@keyframes vectorAnimation {
+    to{
+        transform: translateY(-10px);
+    }
+}
+
+.Tofollow > svg {
+    color: whitesmoke;
+    font-size: xx-large;
+    transition: color 0.2s;
+}
+
+.Tofollow > svg:hover {
+    color : yellowgreen;
+}
+
+.course{
+    width: 250px;
+    margin-bottom: 1rem;
+    transition: all 0.5s;
+}
+
+.course:hover{
+    transform: translateY(-10px);
+}
